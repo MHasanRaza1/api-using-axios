@@ -1,0 +1,32 @@
+.search-wrapper{
+    width: 400px;
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.search-wrapper input{
+    width: 95%;
+    border: none;
+    outline: none;
+    padding-right: 10px;
+}
+
+.search-icon{
+    color: #000;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .search-wrapper{
+            width: 300px;
+    } 
+}
+
+@media screen and (max-width:400px) {
+    .search-wrapper{
+            width: 280px;
+    } 
+}
