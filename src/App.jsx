@@ -13,8 +13,8 @@ const App = () => {
   const [isFound, setIsFound] = useState(false)
   const getData = async () => {
     try {
-      const data = await axios.get('https://freetestapi.com/api/v1/cars');
-      const res = data?.data;
+      const data = await axios.get('https://www.freetestapi.com/api/v1/cars');
+      const res =  data?.data;
       setCar(res)
       setFilterCar(res)
       const categories = [... new Set(res.map((item) => item.make))];
