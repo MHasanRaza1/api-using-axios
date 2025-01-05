@@ -4,7 +4,7 @@ Welcome to the **Car Listing App**, a sleek and user-friendly platform for brows
 
 ## 🌟 Features
 
-- 🔄 **Dynamic Data Fetching**: Fetches real-time car data from an API.
+- 🔄 **Dynamic Data Fetching**: Fetches cars data from an API.
 - 🔍 **Powerful Search**: Search cars by make or model with instant results.
 - 🎯 **Category Filtering**: Filter cars by categories like car make.
 
